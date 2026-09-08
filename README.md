@@ -100,7 +100,10 @@ npm run dev
 | M1 | PDF 全链路（预览/勾页/索引/双语问答） | ✅ 2026-08-17 |
 | M2 | PPT/Word 转换（LibreOffice）+ vision 读图兜底 | ✅ 2026-08-18（pptx/docx/ppt/doc 五格式上传 + 图片型课件异步识图：上传即返回、后台进度轮询、失败重试/重启恢复 + reread 重读接口；openai 客户端 trust_env=False 规避死系统代理） |
 | M3 | 对话存档回看 + 侧栏整理（拖拽/文件夹/跨科目移动） | ✅ 2026-08-17 |
-| P2 | 画图题（image_gen 模型出图） | 不排期 |
+| M4 | 模型与 API 配置中心（页面添加/测试/切换 Provider 与模型） | ✅ 2026-08-23（Provider CRUD + 能力路由 chat/vision/image_gen + 优先级 + 测试连接 + 密钥加密存储） |
+| M5 | 多模态讲解管线（读图识图生图） | ✅ 2026-08-30（figure 描述预跑 + [PLOT] matplotlib/schemdraw 精确绘图 + [DRAW] 生图降级链路） |
+| M6 | 对话交互增强 + 数学公式协议 | ✅ 2026-09-08（流式中断/重发、abortableSSE、KaTeX 数学渲染协议、对话存档图片回看） |
+| P2+ | 画图题（image_gen 模型出图） | ✅ 已随 M5/M6 落地（精确绘制优先、生图降级） |
 
 ## 环境说明（踩过的坑）
 
