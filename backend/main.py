@@ -54,7 +54,7 @@ IMAGES_DIR = PROJECT_ROOT / "data" / "images"  # P2：chat 出图落盘目录
 MAX_UPLOAD_BYTES = 100 * 1024 * 1024  # 100MB（PRD 4.1）
 ALLOWED_EXT = {".pdf", ".pptx", ".docx", ".ppt", ".doc"}  # M2：非 PDF 走 convert.py（LibreOffice）转 PDF，旧格式 .ppt/.doc 同链路支持
 
-app = FastAPI(title="doc-reader-ai backend", version="0.1.0")
+app = FastAPI(title="doc-reader-ai backend", version="1.0.0")
 
 # 前端 Vite dev (5173) 直连；M1 阶段先放开本地端口
 app.add_middleware(
