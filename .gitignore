@@ -1,0 +1,44 @@
+# Python
+backend/venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# Runtime data and user uploads (never commit)
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.pdf
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.jpg
+*.jpeg
+*.png
+
+# Secrets / local machine files
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# LibreOffice temporary profile/cache
+.lo-profile/
+libreoffice-profile/
+
+# Test/build artifacts
+frontend/.test-dist/
+
+# 前端演示课件（合成数据，随仓库分发）
+!frontend/public/mock/*.pdf

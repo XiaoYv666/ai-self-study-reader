@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-dotenv>=1.0
+python-multipart>=0.0.9
+openai>=1.40
+PyMuPDF>=1.24
+matplotlib>=3.8
+schemdraw>=0.19
